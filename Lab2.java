@@ -2,9 +2,9 @@
 // Course:  CS 212
 // Due Date:
 // Lab Assignment: Lab 2
-// Problem Statement:
-// Data In:
-// Data Out:
+// Problem Statement:Your program needs to prompt the player for their name and generate 10 random lottery tickets for the.
+// Data In: User name 
+// Data Out: Random lottery ticket numbers 
 // Credits: [Is your code based on an example in the book, in class, or something else?
 //            Reminder: you should never take code from the Internet or another person
 // importing java tools
