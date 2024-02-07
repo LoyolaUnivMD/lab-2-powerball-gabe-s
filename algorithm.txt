@@ -1,3 +1,7 @@
 print out description of the program
 ask for the player's name
-...
+Create 10 rows of 6 numbers for the lottery ticktes 
+make numbers random from 1-100 
+print out lottery tickets 
+print good luck statement with user name 
+print jackpot number 
