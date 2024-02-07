@@ -24,9 +24,14 @@ public class Lotterytickets {
 
         // Get user name input 
         System.out.print("What's your name? ");
-
         String customerName = input.nextLine();
 
+        //Get user playing amount 
+        System.out.print("How much do you want to play");
+        double playamount = input.nextInt();
+        
+        System.out.println("Great " + customerName + (" wants to play $" + playamount));
+        
     
         // Creates 6 set of numbers on 10 lines 
         int data[] = new int[6];
