@@ -1,13 +1,13 @@
-// Programmers:  [your names here]
+// Programmers: Gabriel S
 // Course:  CS 212
 // Due Date:
-// Lab Assignment:
+// Lab Assignment: Lab 2
 // Problem Statement:
 // Data In:
 // Data Out:
 // Credits: [Is your code based on an example in the book, in class, or something else?
 //            Reminder: you should never take code from the Internet or another person
-
+// importing java tools
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Random;
@@ -18,13 +18,17 @@ public class Lotterytickets {
          long prize = 225938745L;
         Scanner input = new Scanner(System.in);
         
-
+         // Program output
         System.out.println("CS 212 - Lab 2");
         System.out.println("This program generates 10 lottery tickets.");
-        
+
+        // Get user name input 
         System.out.print("What's your name? ");
 
         String customerName = input.nextLine();
+
+    
+        // Creates 6 set of numbers on 10 lines 
         int data[] = new int[6];
         int data2[] = new int[6];
         int data3[] = new int[6];
@@ -38,7 +42,7 @@ public class Lotterytickets {
         Random rand = new Random();
          // 
         // a pseudorandom number generator
-        //rand.setSeed(System.currentTimeMillis());       // use current time as a seed
+        
         // fill the data array with pseudorandom numbers from 0 to 99, inclusive
         for (int i = 0; i < data.length; i++)
             data[i] = rand.nextInt(100);
